@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="icon" href="https://img.icons8.com/wired/64/26e07f/shield.png" type="image/png" sizes="16x16">
+    <title>Chat service</title>
+    <style>
+      #title {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+        
+        position: absolute;
+        top:0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+          
+        margin: auto;
+      }
+
+    </style>
+  </head>
+  
+  <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+  <script>
+    $(function () {
+      $('#title').click(function() {
+         window.location.href = "sticky/chat";
+      });
+    });
+  </script>
+  <body>
+    <button id = "title">
+      <label> Hey User.. :) letzz chat..</label>
+
+    </button>
+  </body>
+</html>
